@@ -1,0 +1,22 @@
+{
+  "name": "debounce",
+  "version": "1.0.0",
+  "description": "using debounce to call an external API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordinky/javascript-debounce.git"
+  },
+  "author": "Jordi Pelaez Calderini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordinky/javascript-debounce/issues"
+  },
+  "homepage": "https://github.com/Jordinky/javascript-debounce#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
