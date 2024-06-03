@@ -38,11 +38,28 @@ Ensure you have the following software installed:
 
     This will start a local server and you can view the project in your browser at `http://localhost:3000`.
 
+### Testing the API
+
+1. **Run the tests:**
+
+    ```bash
+    npm test
+    ```
+
+    This command will execute the test suite to ensure the debounce functionality is working as expected.
+
+2. **Manual Testing:**
+
+    - Open `index.html` in your browser.
+    - Type quickly in the input field.
+    - Observe that the event handler does not fire with every keystroke but waits until typing has paused for a set amount of time.
+
 ### Project Structure
 
 - `src/`: Contains the source code.
 - `index.ts`: The main TypeScript file demonstrating the debounce function.
 - `frontend/`: Contains the front-end code to demonstrate the debounce in action.
+- `tests/`: Contains the test cases for the debounce function.
 
 ### Explanation
 
@@ -63,4 +80,3 @@ If you have any questions, feel free to contact me at [jordinky@example.com](mai
 ---
 
 Feel free to reach out if you have any questions or need further assistance!
-
